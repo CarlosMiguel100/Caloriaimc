@@ -8,7 +8,7 @@ const AppTitle = () => {
     fontSize: '45px', // Tamanho da fonte desejado (por exemplo, 24px)
     fontWeight: 'bold', // Pode definir a fonte em negrito se quiser
     marginBottom: '10px', // Espaçamento inferior entre o título e o formulário (por exemplo, 10px)
-    textAlign: 'center', // Centraliza o título
+    textAlign: 'center',  // Centraliza o título
   };
   return (
     <>
@@ -20,7 +20,7 @@ const AppTitle = () => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center', // Centraliza o conteúdo verticalmente
-          marginTop: '1rem', // Espaçamento de 1 rem (ou outro valor) acima do formulário
+          marginTop: '1rem',// Espaçamento de 1 rem (ou outro valor) acima do formulário
         }}
         spacing={2} // Espaçamento entre os campos
         noValidate

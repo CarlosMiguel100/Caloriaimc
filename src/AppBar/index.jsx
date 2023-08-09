@@ -11,10 +11,10 @@ export default function CustamAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar variant="dense">
-          <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
+          <IconButton edge="start" color=" #5F9EA0" aria-label="menu" sx={{ mr: 2 }}>
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" color="inherit" component="div">
+          <Typography variant="h6" color=" #5F9EA0" component="div"     >
             Nome do app
           </Typography>
         </Toolbar>
